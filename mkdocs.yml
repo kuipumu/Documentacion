@@ -1,0 +1,29 @@
+site_name: ZeroNet
+site_url: https://github.com/HelloZeroNet/ZeroNet
+site_description: Paginas web descentralizadas usando la criptografia Bitcoin y las redes BitTorrent.
+
+repo_url: https://github.com/HelloZeroNet/ZeroNet
+
+extra_css: [docs.css]
+extra_javascript: [docs.js]
+
+
+pages:
+- Introducción: "index.md"
+- Preguntas Frecuentes: "faq.md"
+- Empieza a usar ZeroNet:
+  - "Instalación": "usando_zeronet/instalacion.md"
+  - "Sitios de Muestra": "usando_zeronet/sitios_de_muestra.md"
+  - "Crear Nuevo Sitio": "usando_zeronet/crear_nuevo_sitio.md"
+- "Desarollo de Sitios":
+  - "Primeros Pasos": "desarollo_de_sitio/primeros_pasos.md"
+  - "Referencia de la API de ZeroFrame": "desarollo_de_sitio/zeroframe_api_referencia.md"
+  - "Estructura del content.json": "desarollo_de_sitio/content_json.md"
+  - "Estructura del dbschema.json": "desarollo_de_sitio/dbschema_json.md"
+  - "Autoridad Certificada": "desarollo_de_sitio/cert_authoridad.md"
+- "Ayuda al Desarrollo de ZeroNet":
+  - "Contribuir a ZeroNet": "ayuda_zeronet/contribucion.md"
+  - "Protocolo de Red": "ayuda_zeronet/protocolo_de_red.md"
+  - "Donación": "ayuda_zeronet/donar.md"
+
+theme_dir: readthedocs
